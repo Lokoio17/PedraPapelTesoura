@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="mediaQueries.css">
@@ -9,40 +10,46 @@
   <title>Pedra Papel Tesoura</title>
 </head>
 
-<body>
+<body> 
+  <main>
   <header>
     <div id="header">
       <h1> Pedra Papel Tesoura</h1>
     </div>
   </header>
-  <div id="botoes">
-    <button class='botao' id="pedra" type="button">
-      <img class="img" src="./PEDRA.png" alt="Imagem com desenho de pedra">
-    </button>
-    <button class='botao' id="papel" type="button">
-      <img class="img" src="./PAPEL.png" alt="Imagem com desenho de papel">
-    </button>
-    <button class='botao' id="tesoura" type="button">
-      <img class='img' src="./tesoura.png" alt="Imagem com desenho de tesoura">
-    </button>
-  </div>
-  <div id="scoreboard">
-    <div id="showImgP" class="score">
-      <p class="paragrafo" id="scoreP"></p>
+ 
+    <div id="containerBotoes">
+      <button class='botao' id="pedra" type="button">
+        <img class="img" src="./PEDRA.png" alt="Imagem com desenho de pedra">
+      </button>
+      <button class='botao' id="papel" type="button">
+        <img class="img" src="./PAPEL.png" alt="Imagem com desenho de papel">
+      </button>
+      <button class='botao' id="tesoura" type="button">
+        <img class='img' src="./tesoura.png" alt="Imagem com desenho de tesoura">
+      </button>
     </div>
-    <div id="showImgM" class="score">
-      <p class="paragrafo" id="scoreM"></p>
+    <div id="scoreboard">
+      <div id="showImgP" class="score">
+        <p class="paragrafo" id="scoreP"></p>
+      </div>
+      <div id="showImgM" class="score">
+        <p class="paragrafo" id="scoreM"></p>
+      </div>
     </div>
-  </div>
-  <div id="resultado">CLIQUE NA IMAGEM REFERENTE À SUA JOGADA
-  </div>
-  <div id="containerReset">
-    <button type="button" id="resetar">RESETAR</button>
-  </div>
-  <footer> <a href="https://github.com/Lokoio17" target="_blank" rel="noopener noreferrer">GITHUB</a>
-    <a href="https://github.com/Lokoio17" target="_blank" rel="noopener noreferrer"> <img id='gitHubLogo'
-        src="githublogo.jpg" alt="Logo do github"></a>
+    <div id="resultado">CLIQUE NA IMAGEM REFERENTE À SUA JOGADA
+    </div>
+    <div id="containerReset">
+      <button type="button" id="resetar">RESETAR</button>
+    </div>
+  </main>
+  <footer>
+    <div id="footerDiv"> <a href="https://github.com/Lokoio17" target="_blank" rel="noopener noreferrer">GITHUB</a>
+      <a href="https://github.com/Lokoio17" target="_blank" rel="noopener noreferrer"> <img id='gitHubLogo'
+          src="githublogo.jpg" alt="Logo do github"></a>
+    </div>
   </footer>
   <script src="./PedraPapelTesoura.js"></script>
 </body>
+
 </html>

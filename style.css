@@ -1,10 +1,14 @@
 /*GLOBAL*/
+html{
+    min-height: 100%;
+}
 *{
     padding:0;
     margin: 0; 
-    box-sizing:border-box;
+    
 }
 body{
+    height: 100%;
     background-color:rgb(15, 14, 14);
     
 }
@@ -40,9 +44,6 @@ a {
     min-width: 150px;
     height: 150px;
     }
-.imgscore{
-    width: 100px;
-}
 
 /* scoreboard styling*/
 .score{
@@ -74,7 +75,6 @@ a {
     width: 150px;
     margin-top:6%;
     height: 90px;
-    background-color: rgb(41, 41, 41);
 }
 #resultado{
     font-family: 'Courier New', Courier, monospace;
@@ -97,23 +97,30 @@ a {
 }   
 
 
-#botoes{
+#containerBotoes{
+    width: 100%;
     display:flex;
     justify-content:center;
     gap: 4%;
 }
-footer {
+
+footer{
+    height: 60px;
+    margin:auto;
     padding: 2px 0;
-    gap: 1%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
     text-align: center;
-    position: absolute;
+    position: relative;
     color: white;
     bottom: 0;
     background-color: rgb(15, 14, 14);
     width: 100%;
+}
+#footerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1%;
 }
 #gitHubLogo {
     background-color: grey;

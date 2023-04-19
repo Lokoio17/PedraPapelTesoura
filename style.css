@@ -8,6 +8,10 @@ body{
     background-color:rgb(15, 14, 14);
     
 }
+a {
+    text-decoration: underline;
+    color: white;
+}
 /*divs*/
 
 .botao{
@@ -47,7 +51,7 @@ body{
     justify-self: flex-end;
     margin-top: 1.5em ;
 }
-#containerreset{                                     
+#containerReset{                                     
     text-align: center;
     font-size: 1.5em;
     justify-content: center;
@@ -78,7 +82,7 @@ body{
     text-transform: uppercase;
 
 }
-.aparecerimg{
+.showImg{
     width: 100px;
     height: 100px;
 }
@@ -103,4 +107,49 @@ body{
     display:flex;
     justify-content:center;
     gap: 4%;
+}
+footer {
+    padding: 2px 0;
+    gap: 1%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    position: absolute;
+    color: white;
+    bottom: 0;
+    background-color: rgb(15, 14, 14);
+    width: 100%;
+}
+#gitHubLogo {
+    background-color: grey;
+    width: 30px;
+    border: solid 1px transparent;
+    border-radius: 15px;
+}
+
+
+/* animacao para o logo do github girar*/
+#gitHubLogo:hover {
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }

@@ -33,8 +33,8 @@ const rodada = (jogadaP) => {
 };
 
 // funcao para resetar o score
-const scoreimgM = document.getElementById("aparecerimgM");
-const scoreimgP = document.getElementById("aparecerimgP");
+const scoreimgM = document.getElementById("showImgM");
+const scoreimgP = document.getElementById("showImgP");
 
 const reiniciar = () => {
   pontuacaoMaquina = 0;
@@ -72,14 +72,14 @@ const printTela = (jogadaP) => {
   const scoreP = document.getElementById("scoreP");
   const scoreM = document.getElementById("scoreM");
 
-  function naoDuplicar(qualscore, src) {
+  function naoDuplicar(qualScore, src) {
     const img = document.createElement("img");
     img.src = src;
-    img.className = "aparecerimg";
-    if (qualscore.childElementCount < 2) {
-      qualscore.append(img);
+    img.className = "showImg";
+    if (qualScore.childElementCount < 2) {
+      qualScore.append(img);
     } else {
-      qualscore.lastElementChild.replaceWith(img);
+      qualScore.lastElementChild.replaceWith(img);
     }
   }
   switch (jogadaP) {

@@ -43,7 +43,7 @@ a {
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    border: 3px transparent;
+    border: 3px solid transparent;
 
 }
 .botao:hover{
@@ -51,7 +51,7 @@ a {
 }
 
 .img{
-    border: 3px solid transparent;
+    border: 2px solid transparent;
     min-width: 150px;
     height: 150px;
     }
@@ -69,7 +69,7 @@ a {
 }
 
 .paragrafo{
-    justify-self: flex-end;
+    font-size: 1.2em;
     margin-top: 1.5em ;
 }
 #containerReset{                                     

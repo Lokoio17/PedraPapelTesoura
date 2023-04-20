@@ -1,9 +1,10 @@
 @media (max-width:630px){
     #containerBotoes{
-        gap: 10px;
+        width: 100%;
+        gap: 5px;
     }
     .botao{
-        width: 80%;
+        width: 55%;
         height: auto;
         max-height: 180px;
     }
@@ -43,6 +44,8 @@
         width: 35%;
         height: auto;
     }
-    .img{}
+    .img{
+        height: 11vh;
+    }
     
 }

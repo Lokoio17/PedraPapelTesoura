@@ -4,7 +4,7 @@
         gap: 5px;
     }
     .botao{
-        width: 55%;
+        width: 45%;
         height: auto;
         max-height: 180px;
     }
@@ -20,12 +20,7 @@
     }
 
 }
-@media (max-width:500px){
-    #containerBotoes{
-        gap: 7px;
 
-    }
-}
 @media (max-width:460px){
     .botao{
         width: 60%;
@@ -40,12 +35,23 @@
     h1{
         margin-bottom: 10px;
     }
+
     .botao{
         width: 35%;
         height: auto;
     }
     .img{
-        height: 11vh;
+        
+    }
+    #scoreboard{
+        margin:7px 0;
+    }
+    .score{
+        height: 174px;
+    }
+    .paragrafo{
+       font-size: 0.75em;
+        margin:10px 0;
     }
     
 }

@@ -5,6 +5,7 @@
     
 }
 html, body {
+    overflow-x: hidden;
     margin: 0;
     height: 100%;
 }
@@ -13,22 +14,17 @@ body {
     grid-template-columns: 1fr;
     grid-template-areas: "main" "footer";
     grid-template-rows: 1fr 80px;
+     background-color:rgb(15, 14, 14);
 }
 main {
-    background-color: rgb(15, 14, 14)   ;
     grid-area: main;
-}
-body{
-    height: 100%;
-    background-color:rgb(15, 14, 14);
-    
 }
 a {
     text-decoration: underline;
     color: white;
 }
 
-#header{
+header{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2em;
     color:yellow;
@@ -43,15 +39,15 @@ a {
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    border: 3px solid transparent;
+    border: 3px transparent;
 
 }
-.botao:hover{
+.img:hover{
     border: 3px solid rgb(18, 22, 236);
 }
 
 .img{
-    border: 2px solid transparent;
+    border: 3px solid transparent;
     min-width: 150px;
     height: 150px;
     }
@@ -121,9 +117,7 @@ footer{
     align-items: end;
     padding: 2px 0;
     text-align: center;
-    position: relative;
     color: white;
-    bottom: 0;
     background-color: rgb(15, 14, 14);
     width: 100%;
 }

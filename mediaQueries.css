@@ -15,6 +15,9 @@
     h1{
         font-size: 1.5em;
     }
+    #scoreboard{
+        margin: 45px 0;
+    }
     .score{
         width: 100%;
     }
@@ -29,22 +32,27 @@
     .img{
         min-width: unset;
     }
+    #resetar{
+        width: 35%;
+    }
 
 }
 @media (max-width:360px) {
     h1{
+        font-size: 1em;
         margin-bottom: 10px;
+    }
+    header{
+        height: 140px;
     }
 
     .botao{
         width: 35%;
         height: auto;
     }
-    .img{
-        
-    }
     #scoreboard{
-        margin:7px 0;
+        gap:5px;
+        margin:25px 0;
     }
     .score{
         height: 174px;
@@ -52,6 +60,12 @@
     .paragrafo{
        font-size: 0.75em;
         margin:10px 0;
+    }
+    #resetar{
+        height: 65px;
+    }
+    #resultado{
+        margin-bottom: 15px;
     }
     
 }

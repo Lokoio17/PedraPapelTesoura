@@ -84,25 +84,25 @@ const printTela = (jogadaP) => {
   }
   switch (jogadaP) {
     case "pedra":
-      naoDuplicar(scoreimgP, "./PEDRA.PNG");
+      naoDuplicar(scoreimgP, "../assets/pedra.png");
       break;
     case "papel":
-      naoDuplicar(scoreimgP, "./PAPEL.PNG");
+      naoDuplicar(scoreimgP, "../assets/papel.png");
       break;
     case "tesoura":
-      naoDuplicar(scoreimgP, "./TESOURA.PNG");
+      naoDuplicar(scoreimgP, "../assets/tesoura.png");
       break;
   }
 
   switch (jogadaM) {
     case "pedra":
-      naoDuplicar(scoreimgM, "./PEDRA.PNG");
+      naoDuplicar(scoreimgM, "../assets/pedra.png");
       break;
     case "papel":
-      naoDuplicar(scoreimgM, "./PAPEL.PNG");
+      naoDuplicar(scoreimgM, "../assets/papel.png");
       break;
     case "tesoura":
-      naoDuplicar(scoreimgM, "./TESOURA.PNG");
+      naoDuplicar(scoreimgM, "../assets/tesoura.png");
       break;
   }
 

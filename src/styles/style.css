@@ -101,7 +101,6 @@ header{
     margin-top: 2%;
 }   
 
-
 #containerBotoes{
     width: 100%;
     display:flex;
@@ -117,7 +116,6 @@ footer{
     text-align: center;
     color: white;
     background-color: rgb(15, 14, 14);
-    width: 100%;
 }
 #footerDiv{
     display: flex;
@@ -132,7 +130,6 @@ footer{
     border: solid 1px transparent;
     border-radius: 15px;
 }
-
 
 /* animacao para o logo do github girar*/
 #gitHubLogo:hover {
@@ -158,3 +155,4 @@ footer{
         transform: rotate(360deg);
     }
 }
+@import 'mediaqueries.css'
